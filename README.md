@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# UUPS Upgradable Proxy Pattern
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a simple example of an upgradable smart contract using the UUPS proxy pattern. By utilizing OpenZeppelins `ERC721Upgradeable` and `OwnableUpgradeable` contracts as well as the upgradable implementations by OpenZeppelin, `Initializable` and `UUPSUpgradeable`, this ERC721 can be upgraded correctly.
 
-Try running some of the following tasks:
+
 
 ```shell
-npx hardhat help
+npm install
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
